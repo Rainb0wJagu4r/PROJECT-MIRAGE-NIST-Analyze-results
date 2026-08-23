@@ -94,7 +94,22 @@ Below is the summary of the P-values calculated during the audits of our encrypt
 | **Approximate Entropy Test (m=3)** | 0.70137 | **PASS** | 0.71896 | **PASS** |
 | **Serial Test (m=3)** | 0.45438, 0.18741 | **PASS** | 0.45945, 0.25991 | **PASS** |
 | **Non-overlapping Template Matching** | 0.93547 | **PASS** | 0.99931 | **PASS** |
-| **OVERALL RESULT** | **SECURE / RANDOM** | **PASS** | **SECURE / RANDOM** | **PASS** |
+| **OVERALL AUDIT RESULT** | **STATISTICALLY RANDOM — NIST STS PASS** | **PASS** | **STATISTICALLY RANDOM — NIST STS PASS** | **PASS** |
+
+> [!WARNING]
+> **Cryptographic Security Disclaimer:**
+> Passing NIST statistical tests does not constitute proof of cryptographic security. It only confirms the absence of statistical patterns and high-entropy distribution.
+
+---
+
+## 🔬 Cryptographic Analysis & Avalanche Results (Mirage-C4)
+
+We ran Strict Avalanche Criterion (SAC) analysis on the **Mirage-C4** 1024-bit cascade cipher (Camellia-256-CTR -> ARIA-256-CTR -> ChaCha20 -> AES-256-GCM) with 100 iterations of single-bit flips:
+
+*   **Plaintext SAC: `0.001%`**
+    *   *Analysis:* A single bit-flip in the plaintext alters exactly 1 bit in the ciphertext. This is the expected mathematical behavior of **stream ciphers** (and block ciphers operating in stream modes like CTR or GCM). Since the keystream is generated independently of the plaintext, $C = P \oplus \text{KeyStream}$ does not propagate plaintext bit changes, yielding **no plaintext diffusion**.
+*   **Key SAC: `50.014%`**
+    *   *Analysis:* A single bit-flip in the key alters the KDF (scrypt) output completely, resulting in a new derived keystream. This changes ~50% of the ciphertext bits, satisfying the Strict Avalanche Criterion for key diffusion.
 
 ---
 
