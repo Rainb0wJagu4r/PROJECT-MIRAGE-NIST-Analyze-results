@@ -3,6 +3,9 @@ import threading
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import numpy as np
+import json
+import subprocess
+import math
 
 import file_parser
 import nist_tests
@@ -10,9 +13,15 @@ import nist_tests
 class NistAnalyzerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("NIST SP 800-22 Randomness & Encryption Analyzer")
-        self.root.geometry("1000x750")
-        self.root.minsize(850, 600)
+        self.root.title("NIST SP 800-22 Cryptographic Analysis Framework")
+        self.root.geometry("1100x780")
+        self.root.minsize(950, 650)
+        
+        # Paths for Project Mirage integration
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.project_dir = os.path.abspath(os.path.join(script_dir, "..", "project"))
+        self.avalanche_results_path = os.path.join(self.project_dir, "avalanche_results.json")
+        self.avalanche_script_path = os.path.join(self.project_dir, "avalanche_test.js")
         
         # Variables
         self.file_path_var = tk.StringVar()
@@ -24,6 +33,15 @@ class NistAnalyzerApp:
         self.template_str_var = tk.StringVar(value="000000001")
         self.template_block_var = tk.StringVar(value="1032")
         self.alpha_var = tk.StringVar(value="0.01")
+        
+        # Sidebar variables
+        self.passed_tests_var = tk.StringVar(value="Tests Passed: -")
+        self.min_p_var = tk.StringVar(value="Minimum P-value: -")
+        self.max_p_var = tk.StringVar(value="Maximum P-value: -")
+        self.bit_balance_var = tk.StringVar(value="Bit Balance: -")
+        self.serial_corr_var = tk.StringVar(value="Serial Correlation: -")
+        self.plaintext_sac_var = tk.StringVar(value="Plaintext SAC: -")
+        self.key_sac_var = tk.StringVar(value="Key SAC: -")
         
         # Test selection variables
         self.tests_to_run = {
@@ -44,13 +62,15 @@ class NistAnalyzerApp:
         self.is_running = False
         
         self.setup_ui()
+        self.load_avalanche_results()
         
     def setup_ui(self):
-        # Configure grid expansion
-        self.root.columnconfigure(0, weight=1)
-        self.root.rowconfigure(2, weight=1)
+        # Configure grid expansion: Notebook gets column 0, Sidebar gets column 1
+        self.root.columnconfigure(0, weight=3)
+        self.root.columnconfigure(1, weight=1)
+        self.root.rowconfigure(3, weight=1)
         
-        # 1. File Selection Frame
+        # 1. File Selection Frame (Spans both columns)
         file_frame = ttk.LabelFrame(self.root, text=" 1. Select Input File ", padding=10)
         file_frame.grid(row=0, column=0, columnspan=2, sticky="ew", padx=15, pady=10)
         file_frame.columnconfigure(1, weight=1)
@@ -72,7 +92,7 @@ class NistAnalyzerApp:
         self.info_label = ttk.Label(file_frame, text="Select a file to inspect size and bits.", font=("Helvetica", 11, "italic"))
         self.info_label.grid(row=1, column=2, sticky="e", pady=(10, 0))
         
-        # 2. Main Config Frame (Contains Parameters on Left and Tests Checklist on Right)
+        # 2. Main Config Frame (Spans both columns)
         config_panes = ttk.Frame(self.root)
         config_panes.grid(row=1, column=0, columnspan=2, sticky="nsew", padx=15, pady=5)
         config_panes.columnconfigure(0, weight=1)
@@ -130,13 +150,13 @@ class NistAnalyzerApp:
         for test_name, var in self.tests_to_run.items():
             ttk.Checkbutton(scrollable_check_frame, text=test_name, variable=var).pack(anchor="w", pady=2)
             
-        # Select all / Clear all buttons in checklist frame header area (or bottom)
+        # Select all / Clear all buttons in checklist frame header area
         btns_subframe = ttk.Frame(checklist_frame)
         btns_subframe.pack(side="bottom", fill="x", pady=(5,0))
         ttk.Button(btns_subframe, text="Select All", width=12, command=self.select_all_tests).pack(side="left", padx=5)
         ttk.Button(btns_subframe, text="Clear All", width=12, command=self.clear_all_tests).pack(side="left", padx=5)
         
-        # 3. Action Panel (Run button)
+        # 3. Action Panel (Spans both columns)
         action_frame = ttk.Frame(self.root)
         action_frame.grid(row=2, column=0, columnspan=2, sticky="ew", padx=15, pady=10)
         
@@ -149,10 +169,9 @@ class NistAnalyzerApp:
         
         self.progress_bar = ttk.Progressbar(action_frame, orient="horizontal", mode="indeterminate", length=200)
         
-        # 4. Results Notebook Frame (Summary vs Log)
+        # 4. Results Notebook Frame (Column 0, weight 3)
         results_frame = ttk.Frame(self.root)
-        results_frame.grid(row=3, column=0, columnspan=2, sticky="nsew", padx=15, pady=(5, 15))
-        self.root.rowconfigure(3, weight=1)
+        results_frame.grid(row=3, column=0, sticky="nsew", padx=(15, 5), pady=(5, 15))
         
         self.notebook = ttk.Notebook(results_frame)
         self.notebook.pack(fill="both", expand=True)
@@ -176,10 +195,10 @@ class NistAnalyzerApp:
         self.tree.heading("status", text="Status (alpha)")
         self.tree.heading("summary", text="Summary Details")
         
-        self.tree.column("test_name", width=250, anchor="w")
-        self.tree.column("p_value", width=150, anchor="center")
-        self.tree.column("status", width=120, anchor="center")
-        self.tree.column("summary", width=400, anchor="w")
+        self.tree.column("test_name", width=220, anchor="w")
+        self.tree.column("p_value", width=140, anchor="center")
+        self.tree.column("status", width=110, anchor="center")
+        self.tree.column("summary", width=300, anchor="w")
         
         # Styling tag colors
         self.tree.tag_configure("pass", foreground="green", font=("Helvetica", 10, "bold"))
@@ -197,11 +216,48 @@ class NistAnalyzerApp:
         self.log_text.pack(side="left", fill="both", expand=True)
         log_scroll.config(command=self.log_text.yview)
         
-        # Sub-bar inside Tab 2
         log_action_bar = ttk.Frame(log_tab)
         log_action_bar.pack(side="bottom", fill="x", pady=5)
         self.save_btn = ttk.Button(log_action_bar, text="Save Report to File", command=self.save_report, state="disabled")
         self.save_btn.pack(side="right", padx=10)
+        
+        # 5. Side Panel: Cryptographic Analysis Sidebar (Column 1, weight 1)
+        sidebar = ttk.LabelFrame(self.root, text=" Cryptographic Audit Framework ", padding=10)
+        sidebar.grid(row=3, column=1, sticky="nsew", padx=(5, 15), pady=(5, 15))
+        
+        # NIST STS Statistics
+        ttk.Label(sidebar, text="NIST STS", font=("Helvetica", 10, "bold")).pack(anchor="w", pady=(5, 2))
+        ttk.Label(sidebar, textvariable=self.passed_tests_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        ttk.Label(sidebar, textvariable=self.min_p_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        ttk.Label(sidebar, textvariable=self.max_p_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        
+        ttk.Separator(sidebar, orient="horizontal").pack(fill="x", pady=8)
+        
+        # Avalanche Effect Panel
+        ttk.Label(sidebar, text="Avalanche Effect (Mirage-C4)", font=("Helvetica", 10, "bold")).pack(anchor="w", pady=(0, 2))
+        ttk.Label(sidebar, textvariable=self.plaintext_sac_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        ttk.Label(sidebar, textvariable=self.key_sac_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        self.avalanche_btn = ttk.Button(sidebar, text="Run Avalanche Test", command=self.start_avalanche_test)
+        self.avalanche_btn.pack(fill="x", pady=(5, 0))
+        
+        ttk.Separator(sidebar, orient="horizontal").pack(fill="x", pady=8)
+        
+        # Distribution Panel
+        ttk.Label(sidebar, text="Distribution Metrics", font=("Helvetica", 10, "bold")).pack(anchor="w", pady=(0, 2))
+        ttk.Label(sidebar, textvariable=self.bit_balance_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        ttk.Label(sidebar, textvariable=self.serial_corr_var, font=("Helvetica", 10)).pack(anchor="w", pady=1)
+        
+        ttk.Separator(sidebar, orient="horizontal").pack(fill="x", pady=8)
+        
+        # Global Decision Box
+        self.decision_label = tk.Label(sidebar, text="WAITING FOR ANALYSIS", bg="#e0e0e0", fg="black",
+                                      font=("Helvetica", 10, "bold"), relief="solid", bd=1, pady=6)
+        self.decision_label.pack(fill="x", pady=5)
+        
+        # Disclaimer
+        disclaimer_lbl = ttk.Label(sidebar, text="⚠ Passing NIST statistical tests does not constitute proof of cryptographic security.",
+                                  font=("Helvetica", 9, "italic"), foreground="#804040", wraplength=180, justify="center")
+        disclaimer_lbl.pack(fill="x", pady=(15, 0))
         
     def select_all_tests(self):
         for var in self.tests_to_run.values():
@@ -223,15 +279,13 @@ class NistAnalyzerApp:
     def inspect_file(self, file_path):
         try:
             size_bytes = os.path.getsize(file_path)
-            # Standard raw byte conversion estimation
             total_bits = size_bytes * 8
             
-            # Update info label based on selected format
             format_type = self.format_var.get()
             if format_type == "ASCII Binary (0s & 1s)":
-                total_bits = size_bytes  # approx 1 bit per character
+                total_bits = size_bytes  
             elif format_type == "Hexadecimal String":
-                total_bits = size_bytes * 4  # approx 4 bits per character
+                total_bits = size_bytes * 4  
                 
             size_str = f"{size_bytes:,} bytes"
             if size_bytes > 1024 * 1024:
@@ -243,6 +297,52 @@ class NistAnalyzerApp:
         except Exception as e:
             self.info_label.config(text=f"Error reading file size: {str(e)}")
             
+    def load_avalanche_results(self):
+        if os.path.exists(self.avalanche_results_path):
+            try:
+                with open(self.avalanche_results_path, "r") as f:
+                    data = json.load(f)
+                    p_sac = data.get("plaintext_sac", 0.0)
+                    k_sac = data.get("key_sac", 0.0)
+                    self.plaintext_sac_var.set(f"Plaintext SAC: {p_sac:.3f}%")
+                    self.key_sac_var.set(f"Key SAC: {k_sac:.3f}%")
+            except Exception as e:
+                print(f"Error loading avalanche results: {e}")
+                
+    def start_avalanche_test(self):
+        self.avalanche_btn.config(state="disabled")
+        self.status_var.set("Status: Running Avalanche Test...")
+        self.progress_bar.pack(side="right", padx=10)
+        self.progress_bar.start(10)
+        
+        thread = threading.Thread(target=self.run_avalanche_thread)
+        thread.daemon = True
+        thread.start()
+        
+    def run_avalanche_thread(self):
+        try:
+            # Run the node script in project directory
+            subprocess.run(["node", self.avalanche_script_path], cwd=self.project_dir, 
+                           capture_output=True, text=True, check=True)
+            self.root.after(0, self.on_avalanche_success)
+        except Exception as e:
+            self.root.after(0, lambda: self.on_avalanche_error(str(e)))
+            
+    def on_avalanche_success(self):
+        self.progress_bar.stop()
+        self.progress_bar.pack_forget()
+        self.avalanche_btn.config(state="normal")
+        self.status_var.set("Status: Avalanche Test Completed")
+        self.load_avalanche_results()
+        messagebox.showinfo("Success", "Strict Avalanche Criterion (SAC) analysis completed successfully!")
+        
+    def on_avalanche_error(self, err_msg):
+        self.progress_bar.stop()
+        self.progress_bar.pack_forget()
+        self.avalanche_btn.config(state="normal")
+        self.status_var.set("Status: Avalanche Test Failed")
+        messagebox.showerror("Error", f"Failed to run avalanche test:\n{err_msg}")
+        
     def start_analysis(self):
         file_path = self.file_path_var.get()
         if not file_path:
@@ -342,17 +442,64 @@ class NistAnalyzerApp:
             run_if_selected("Non-overlapping Template Matching Test", nist_tests.non_overlapping_template_matching_test, template_str, template_block)
             
             # Process results for UI update
-            self.root.after(0, lambda: self.on_success(file_path, n, results, detailed_logs, alpha))
+            self.root.after(0, lambda: self.on_success(file_path, n, results, detailed_logs, alpha, bits))
             
         except Exception as e:
             self.root.after(0, lambda: self.on_error(f"Analysis failed: {str(e)}"))
             
-    def on_success(self, file_path, n_bits, results, detailed_logs, alpha):
+    def on_success(self, file_path, n_bits, results, detailed_logs, alpha, bits):
         self.is_running = False
         self.progress_bar.stop()
         self.progress_bar.pack_forget()
         self.run_btn.config(state="normal")
         self.status_var.set("Status: Analysis Completed")
+        
+        # Calculate Distribution Metrics
+        ones_ratio = np.sum(bits) / len(bits)
+        bit_balance = ones_ratio * 100
+        
+        if len(bits) > 1:
+            if np.all(bits == bits[0]):
+                corr = 1.0
+            else:
+                corr = np.corrcoef(bits[:-1], bits[1:])[0, 1]
+                if math.isnan(corr):
+                    corr = 0.0
+        else:
+            corr = 0.0
+            
+        # Update Sidebar
+        self.bit_balance_var.set(f"Bit Balance: {bit_balance:.2f}% ones")
+        self.serial_corr_var.set(f"Serial Correlation: {corr:.4f}")
+        
+        # Calculate NIST STS Statistics
+        p_values_list = []
+        passed_count = 0
+        total_tests = len(results)
+        
+        for name, p_val, passed, detail in results:
+            if passed:
+                passed_count += 1
+            if isinstance(p_val, tuple):
+                p_values_list.extend(p_val)
+            elif isinstance(p_val, (int, float)):
+                p_values_list.append(p_val)
+                
+        min_p = min(p_values_list) if p_values_list else 0.0
+        max_p = max(p_values_list) if p_values_list else 0.0
+        
+        self.passed_tests_var.set(f"Tests Passed: {passed_count} / {total_tests}")
+        self.min_p_var.set(f"Minimum P-value: {min_p:.5f}" if p_values_list else "Minimum P-value: -")
+        self.max_p_var.set(f"Maximum P-value: {max_p:.5f}" if p_values_list else "Maximum P-value: -")
+        
+        # Update Global Decision Label
+        all_passed = (passed_count == total_tests)
+        if all_passed:
+            self.decision_label.config(text="NIST STS: PASS", bg="#d4edda", fg="#155724")
+        else:
+            self.decision_label.config(text="NIST STS: FAIL", bg="#f8d7da", fg="#721c24")
+            
+        overall_conclusion = "STATISTICALLY RANDOM — NIST STS PASS" if all_passed else "NON-RANDOM — POTENTIAL LEAKAGE"
         
         # Build Report Header
         report_header = (
@@ -362,6 +509,10 @@ class NistAnalyzerApp:
             f"File Analyzed:      {file_path}\n"
             f"Sequence Length:    {n_bits:,} bits\n"
             f"Significance Level: {alpha}\n"
+            f"Conclusion:         {overall_conclusion}\n"
+            "----------------------------------------------------------------------\n"
+            "WARNING: Passing NIST statistical tests does not constitute proof of\n"
+            "         cryptographic security.\n"
             "======================================================================\n\n"
         )
         
@@ -371,7 +522,6 @@ class NistAnalyzerApp:
         
         # Populate Treeview and build summary text
         for name, p_val, passed, detail in results:
-            # Format P-value representation
             if isinstance(p_val, tuple):
                 p_str = ", ".join(f"{p:.5f}" for p in p_val)
             elif isinstance(p_val, float):
@@ -382,7 +532,6 @@ class NistAnalyzerApp:
             status = "PASS" if passed else "FAIL"
             tag = "pass" if passed else "fail"
             
-            # Simple summary extract
             lines = detail.strip().split('\n')
             summary_line = lines[1] if len(lines) > 1 else lines[0]
             summary_line = summary_line.replace("\t", " ").strip()
@@ -403,7 +552,6 @@ class NistAnalyzerApp:
         self.latest_report_text = report_header + report_summary + "DETAILED TEST LOGS:\n\n" + "".join(detailed_logs)
         self.save_btn.config(state="normal")
         
-        # Select summary tab
         self.notebook.select(0)
         
     def on_error(self, message):

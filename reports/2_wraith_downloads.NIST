@@ -5,6 +5,10 @@ Target File:        ~/Downloads/untitled folder/2.wraith
 File Size:          1,780,376 bytes
 Sequence Length:    14,243,008 bits
 Significance Level: 0.01
+Conclusion:         STATISTICALLY RANDOM — NIST STS PASS
+----------------------------------------------------------------------
+WARNING: Passing NIST statistical tests does not constitute proof of
+         cryptographic security.
 ======================================================================
 
 SUMMARY TABLE:
@@ -23,7 +27,7 @@ Non-overlapping Template Matching (template=000000001)  | 0.99931            | P
 
 ========================================================================================
 
-OVERALL AUDIT RESULT: SECURE / RANDOM
+OVERALL AUDIT RESULT: STATISTICALLY RANDOM — NIST STS PASS
 
 DETAILED TEST LOGS:
 

@@ -51,6 +51,13 @@ def run_audit(file_path: str, output_path: str):
         run_test("Non-overlapping Template Matching (template=000000001)", nist_tests.non_overlapping_template_matching_test, "000000001", 1032)
         
         # Build report
+        all_passed = True
+        for name, p_val, passed, detail in results:
+            if not passed:
+                all_passed = False
+
+        overall_conclusion = "STATISTICALLY RANDOM — NIST STS PASS" if all_passed else "NON-RANDOM — POTENTIAL LEAKAGE"
+
         report_header = (
             "======================================================================\n"
             "                      NIST SP 800-22 AUDIT REPORT                     \n"
@@ -59,6 +66,10 @@ def run_audit(file_path: str, output_path: str):
             f"File Size:          {size_bytes:,} bytes\n"
             f"Sequence Length:    {n_bits:,} bits\n"
             f"Significance Level: {alpha}\n"
+            f"Conclusion:         {overall_conclusion}\n"
+            "----------------------------------------------------------------------\n"
+            "WARNING: Passing NIST statistical tests does not constitute proof of\n"
+            "         cryptographic security.\n"
             "======================================================================\n\n"
         )
         
@@ -66,7 +77,6 @@ def run_audit(file_path: str, output_path: str):
         report_summary += f"{'Test Name':<55} | {'P-Value(s)':<18} | {'Status':<8}\n"
         report_summary += "-" * 88 + "\n"
         
-        all_passed = True
         for name, p_val, passed, detail in results:
             if isinstance(p_val, tuple):
                 p_str = ", ".join(f"{p:.5f}" for p in p_val)
@@ -76,13 +86,10 @@ def run_audit(file_path: str, output_path: str):
                 p_str = str(p_val)
                 
             status = "PASS" if passed else "FAIL"
-            if not passed:
-                all_passed = False
-                
             report_summary += f"{name:<55} | {p_str:<18} | {status:<8}\n"
             
         report_summary += "\n" + "=" * 88 + "\n\n"
-        report_summary += f"OVERALL AUDIT RESULT: {'SECURE / RANDOM' if all_passed else 'NON-RANDOM / POTENTIAL LEAKAGE'}\n\n"
+        report_summary += f"OVERALL AUDIT RESULT: {overall_conclusion}\n\n"
         
         full_report = report_header + report_summary + "DETAILED TEST LOGS:\n\n" + "".join(detailed_logs)
         
