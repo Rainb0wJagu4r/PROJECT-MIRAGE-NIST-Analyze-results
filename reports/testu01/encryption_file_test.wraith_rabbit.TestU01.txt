@@ -1,0 +1,847 @@
+========================================================
+         TestU01 Cryptographic Randomness Suite        
+========================================================
+Suite:         rabbit
+Target File:   C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+Header Offset: 108 bytes
+========================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 80000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  9,  n = 8888864,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 8888864
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  30923.851
+       EColl = n^2 / (2k) =  143.7218147
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   30923.85
+       Expected number of collisions = Mu =     143.72
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1293.47
+Observed number of collisions         :     1299
+p-value of test                       :    0.44
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    2473821164019
+  j =  1                              :         79997178
+  j =  2                              :             1299
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:09.23
+
+Generator state:
+Bytes read: 9999972
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 1250000,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   19.00
+p-value of test                       :    0.51
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.37
+
+Generator state:
+Bytes read: 19999972
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 625000,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :    9.00
+p-value of test                       :    0.16
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.37
+
+Generator state:
+Bytes read: 29999972
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 2500000,   K = 2500000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =     75000000 bits
+   Q = 2500000 initialization blocks
+   K = 2500000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.99
+p-value of test                       :    0.16
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 39999972
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 27872,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi2 statistic for size of jumps      :    5.03
+p-value of test                       :    0.75
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -0.34
+p-value of test                       :    0.63
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.37
+
+Generator state:
+Bytes read: 40003456
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 67108864,  r =  0,   s =   32,   k =   26
+
+
+-----------------------------------------------
+Normal statistic                      :    0.38
+p-value of test                       :    0.35
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.43
+
+Generator state:
+Bytes read: 48392064
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.66
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 48523136
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 19379,  n = 4096,  r =  0,   s =   32,   k =   12
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.034
+p-value of test                       :    0.09
+
+Kolmogorov-Smirnov- statistic = D-    :   0.011
+p-value of test                       :    0.78
+
+Anderson-Darling statistic = A2       :    1.05
+p-value of test                       :    0.33
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.26
+
+Generator state:
+Bytes read: 58522700
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 133312
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    9.45
+p-value of test                       :    0.31
+
+-----------------------------------------------
+Global longest run of 1               :   25.00
+p-value of test                       :    0.50
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.31
+
+Generator state:
+Bytes read: 68521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  132
+Chi-square statistic                  :  118.55
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 78521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   24
+Chi-square statistic                  :   38.05
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 88521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.93
+p-value of test                       :    0.97
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 98521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 1250000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.39
+p-value of test                       :    0.92
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 108521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 625000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   0.081
+p-value of test                       :    0.47
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 118521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  201
+Chi-square statistic                  :  177.16
+p-value of test                       :    0.89
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+Bytes read: 128521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 1250000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  373
+Chi-square statistic                  :  371.00
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 138521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 625000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  641
+Chi-square statistic                  :  619.04
+p-value of test                       :    0.73
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 148521100
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 79999937,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    1.49
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+Bytes read: 158521096
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 79999938,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :    0.15
+p-value of test                       :    0.44
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+Bytes read: 168521092
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 16000000,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  16000005
+
+Number of degrees of freedom          :   40
+Chi2 statistic for number of runs     :   43.96
+p-value of test                       :    0.31
+
+
+-----------------------------------------------
+Total number of bits:  64001056
+
+Normal statistic for number of bits   :   0.093
+p-value of test                       :    0.46
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.31
+
+Generator state:
+Bytes read: 176521224
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 78125,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.07
+p-value of test                       :    0.56
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.32
+
+Generator state:
+Bytes read: 186521224
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 781,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    7.41
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.35
+
+Generator state:
+Bytes read: 196518024
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 76,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    3.43
+p-value of test                       :    0.18
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.39
+
+Generator state:
+Bytes read: 206479496
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 625000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   41.53
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   47
+ChiSquare statistic                   :   39.56
+p-value of test                       :    0.77
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   71.17
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   39
+ChiSquare statistic                   :   37.55
+p-value of test                       :    0.54
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   24
+ChiSquare statistic                   :   21.46
+p-value of test                       :    0.61
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+Bytes read: 216479496
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 78125,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  108
+ChiSquare statistic                   :  116.85
+p-value of test                       :    0.26
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  109
+ChiSquare statistic                   :   89.54
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  567.84
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  105
+ChiSquare statistic                   :   86.33
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   57
+ChiSquare statistic                   :   57.64
+p-value of test                       :    0.45
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.21
+
+Generator state:
+Bytes read: 226479496
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 7987,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  224
+ChiSquare statistic                   :  221.29
+p-value of test                       :    0.54
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  225
+ChiSquare statistic                   :  221.86
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  708
+ChiSquare statistic                   :  692.44
+p-value of test                       :    0.65
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  223
+ChiSquare statistic                   :  245.86
+p-value of test                       :    0.14
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  126
+ChiSquare statistic                   :  105.10
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.18
+
+Generator state:
+Bytes read: 236479220
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        C
+ Number of bits:   80000000
+ Number of statistics:  40
+ Total CPU time:   00:00:16.48
+
+ All tests were passed
+
+
+
+
+Test execution finished successfully.

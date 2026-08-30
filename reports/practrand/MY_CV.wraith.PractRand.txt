@@ -1,0 +1,10 @@
+RNG_test using PractRand version 0.94
+RNG = RNG_stdin8, seed = unknown
+test set = core, folding = standard (8 bit)
+
+rng=RNG_stdin8, seed=unknown
+length= 4 megabytes (2^22 bytes), time= 0.1 seconds
+  Test Name                         Raw       Processed     Evaluation
+  BCFN(2+1,13-6,T)                  R=  -5.9  p =1-6.8e-4   unusual          
+  ...and 70 test result(s) without anomalies
+

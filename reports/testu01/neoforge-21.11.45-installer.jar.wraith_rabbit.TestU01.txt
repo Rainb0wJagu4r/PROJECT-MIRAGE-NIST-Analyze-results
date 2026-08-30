@@ -1,0 +1,797 @@
+========================================================
+         TestU01 Cryptographic Randomness Suite        
+========================================================
+Suite:         rabbit
+Target File:   C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+Header Offset: 108 bytes
+========================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 1359888
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  1,  n = 1359872,  r =  0,   s = 32,   L =   33,
+       Sparse =   TRUE
+
+       Number of bits = n = 1359872
+       Number of cells = 2^L =         8589934592
+       Expected number per cell =  1 /  6316.7229
+       EColl = n^2 / (2k) =   107.640625
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /    6316.72
+       Expected number of collisions = Mu =     107.63
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      107.63
+Observed number of collisions         :       95
+p-value of test                       :    0.88
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :       8588574815
+  j =  1                              :          1359682
+  j =  2                              :               95
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.14
+
+Generator state:
+Bytes read: 169984
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 21248,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   14.00
+p-value of test                       :    0.19
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 339968
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 10624,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :    7.00
+p-value of test                       :    0.01
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 509952
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 63744,   K = 63744,   r = 0,   s = 30,   L = 10
+
+   Sequences of n = (K + Q)L =      1274880 bits
+   Q = 63744 initialization blocks
+   K = 63744 blocks for the test
+   the blocks have L = 10 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.20
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 679936
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 12320,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi2 statistic for size of jumps      :    6.43
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :   -1.28
+p-value of test                       :    0.90
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 681476
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    0.77
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 812548
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   0.054
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 943620
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 2499,  n = 512,  r =  0,   s =   32,   k =    9
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.036
+p-value of test                       :    0.71
+
+Kolmogorov-Smirnov- statistic = D-    :   0.051
+p-value of test                       :    0.49
+
+Anderson-Darling statistic = A2       :    0.27
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1113552
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 60,  r =  0,   s = 32,   L = 22656
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.60
+p-value of test                       :    0.66
+
+-----------------------------------------------
+Global longest run of 1               :   19.00
+p-value of test                       :    0.50
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1283472
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 42496,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   48
+Chi-square statistic                  :   55.05
+p-value of test                       :    0.23
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 1453456
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 42496,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   20
+Chi-square statistic                  :   14.93
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1623440
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 42496,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.40
+p-value of test                       :    0.65
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1793424
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 21248,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.32
+p-value of test                       :    0.91
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1963408
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 10624,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.38
+p-value of test                       :    0.08
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2133392
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 42496,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  129
+Chi-square statistic                  :  134.19
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2303376
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 21248,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  185
+Chi-square statistic                  :  169.34
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2473360
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10624,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  241
+Chi-square statistic                  :  208.69
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2643344
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 1359809,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :   0.010
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 2813324
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 1359810,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :    0.46
+p-value of test                       :    0.32
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2983304
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 271974,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  271978
+
+Number of degrees of freedom          :   28
+Chi2 statistic for number of runs     :   34.28
+p-value of test                       :    0.19
+
+
+-----------------------------------------------
+Total number of bits:  1087584
+
+Normal statistic for number of bits   :   -0.21
+p-value of test                       :    0.58
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3119252
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 1328,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :   0.012
+p-value of test                       :    0.9939
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3289236
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 10624,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   34
+ChiSquare statistic                   :   40.41
+p-value of test                       :    0.21
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   34
+ChiSquare statistic                   :   30.20
+p-value of test                       :    0.65
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   55.19
+p-value of test                       :    0.78
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   31
+ChiSquare statistic                   :   27.24
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   18
+ChiSquare statistic                   :   18.88
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 3459220
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1328,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   60
+ChiSquare statistic                   :   57.99
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   60
+ChiSquare statistic                   :   60.63
+p-value of test                       :    0.45
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  111
+ChiSquare statistic                   :  113.96
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   59
+ChiSquare statistic                   :   69.80
+p-value of test                       :    0.16
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   35
+ChiSquare statistic                   :   40.59
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3629204
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\neoforge-21.11.45-installer.jar.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 135,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   11
+ChiSquare statistic                   :   12.46
+p-value of test                       :    0.33
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   12
+ChiSquare statistic                   :   12.61
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   12
+ChiSquare statistic                   :    9.34
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   12
+ChiSquare statistic                   :   12.43
+p-value of test                       :    0.41
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   11
+ChiSquare statistic                   :    8.84
+p-value of test                       :    0.64
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3798224
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        C
+ Number of bits:   1359872
+ Number of statistics:  38
+ Total CPU time:   00:00:00.40
+
+ All tests were passed
+
+
+
+
+Test execution finished successfully.

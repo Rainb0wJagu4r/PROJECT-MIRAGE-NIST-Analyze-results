@@ -1,0 +1,797 @@
+========================================================
+         TestU01 Cryptographic Randomness Suite        
+========================================================
+Suite:         rabbit
+Target File:   C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+Header Offset: 108 bytes
+========================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 1706936
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  1,  n = 1706912,  r =  0,   s = 32,   L =   33,
+       Sparse =   TRUE
+
+       Number of bits = n = 1706912
+       Number of cells = 2^L =         8589934592
+       Expected number per cell =  1 /  5032.4414
+       EColl = n^2 / (2k) =  169.5908476
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /    5032.44
+       Expected number of collisions = Mu =     169.57
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      169.57
+Observed number of collisions         :      165
+p-value of test                       :    0.62
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :       8588227845
+  j =  1                              :          1706582
+  j =  2                              :              165
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.18
+
+Generator state:
+Bytes read: 213364
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 26670,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   14.00
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 426724
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 13335,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :    7.00
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 640084
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 80011,   K = 80011,   r = 0,   s = 30,   L = 10
+
+   Sequences of n = (K + Q)L =      1600220 bits
+   Q = 80011 initialization blocks
+   K = 80011 blocks for the test
+   the blocks have L = 10 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    1.29
+p-value of test                       :    0.10
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 853444
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 12608,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi2 statistic for size of jumps      :   10.62
+p-value of test                       :    0.16
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    2.23
+p-value of test                       :    0.01
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 855020
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.55
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 986092
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    0.45
+p-value of test                       :    0.33
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 1117164
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 3137,  n = 512,  r =  0,   s =   32,   k =    9
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.065
+p-value of test                       :    0.32
+
+Kolmogorov-Smirnov- statistic = D-    : 9.00e-3
+p-value of test                       :    0.97
+
+Anderson-Darling statistic = A2       :    0.84
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1330480
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 60,  r =  0,   s = 32,   L = 28416
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    3.59
+p-value of test                       :    0.31
+
+-----------------------------------------------
+Global longest run of 1               :   19.00
+p-value of test                       :    0.56
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1543600
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 53341,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   52
+Chi-square statistic                  :   54.87
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1756964
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 53341,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   20
+Chi-square statistic                  :   18.83
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 1970328
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 53341,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.38
+p-value of test                       :    0.65
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2183692
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 26670,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.94
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 2397052
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 13335,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.82
+p-value of test                       :    0.21
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2610412
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 53341,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  137
+Chi-square statistic                  :  140.15
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 2823776
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 26670,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  193
+Chi-square statistic                  :  168.20
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3037136
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 13335,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  261
+Chi-square statistic                  :  289.32
+p-value of test                       :    0.11
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3250496
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 1706849,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    1.19
+p-value of test                       :    0.12
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3463856
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 1706850,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.52
+p-value of test                       :    0.70
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 3677216
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 341382,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  341386
+
+Number of degrees of freedom          :   30
+Chi2 statistic for number of runs     :   29.14
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+Total number of bits:  1364832
+
+Normal statistic for number of bits   :   -0.42
+p-value of test                       :    0.66
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 3847820
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 1666,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.42
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 4061068
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 13335,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   31.10
+p-value of test                       :    0.70
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   30.52
+p-value of test                       :    0.73
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   60.39
+p-value of test                       :    0.60
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   31
+ChiSquare statistic                   :   29.64
+p-value of test                       :    0.54
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   18
+ChiSquare statistic                   :   20.36
+p-value of test                       :    0.31
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 4274428
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1666,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   53.88
+p-value of test                       :    0.81
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   59.02
+p-value of test                       :    0.65
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  136
+ChiSquare statistic                   :  165.85
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   63
+ChiSquare statistic                   :   62.88
+p-value of test                       :    0.48
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   40.18
+p-value of test                       :    0.29
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 4487676
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\ALL%20KEYBINDINGS%20-%20Copy.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 170,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   15
+ChiSquare statistic                   :   16.54
+p-value of test                       :    0.35
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   15
+ChiSquare statistic                   :   13.90
+p-value of test                       :    0.53
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   15
+ChiSquare statistic                   :   14.92
+p-value of test                       :    0.46
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   15
+ChiSquare statistic                   :   19.86
+p-value of test                       :    0.18
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   14
+ChiSquare statistic                   :   13.63
+p-value of test                       :    0.48
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 4700516
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        C
+ Number of bits:   1706912
+ Number of statistics:  38
+ Total CPU time:   00:00:00.40
+
+ All tests were passed
+
+
+
+
+Test execution finished successfully.

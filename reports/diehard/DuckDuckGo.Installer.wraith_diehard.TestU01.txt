@@ -1,0 +1,5609 @@
+========================================================
+         TestU01 Cryptographic Randomness Suite        
+========================================================
+Suite:         diehard
+Target File:   C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+Header Offset: 108 bytes
+========================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting pseudoDIEHARD
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+smarsa_BirthdaySpacings test with r = 0, 1, 2, 3, 4, 5, 6, 7, 8,
+ .....
+
+ r = 0
+ChiSquare statistic                   :    5.42
+p-value of test                       :    0.49
+
+ r = 1
+ChiSquare statistic                   :    5.21
+p-value of test                       :    0.52
+
+ r = 2
+ChiSquare statistic                   :   10.19
+p-value of test                       :    0.12
+
+ r = 3
+ChiSquare statistic                   :    2.36
+p-value of test                       :    0.88
+
+ r = 4
+ChiSquare statistic                   :    9.50
+p-value of test                       :    0.15
+
+ r = 5
+ChiSquare statistic                   :    3.68
+p-value of test                       :    0.72
+
+ r = 6
+ChiSquare statistic                   :   11.29
+p-value of test                       :    0.08
+
+ r = 7
+ChiSquare statistic                   :    5.82
+p-value of test                       :    0.44
+
+ r = 8
+ChiSquare statistic                   :    5.70
+p-value of test                       :    0.46
+
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 40000,  r =  0,    s = 31,    L = 31,    k = 31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    0.35
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.15
+
+Generator state:
+Bytes read: 14176000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 40000,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.70
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.18
+
+Generator state:
+Bytes read: 19296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  0,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.46
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 21696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  1,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.50
+p-value of test                       :    0.47
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 24096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  2,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    4.08
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 26496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  3,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.42
+p-value of test                       :    0.49
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 28896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  4,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.49
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 31296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  5,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.27
+p-value of test                       :    0.32
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 33696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  6,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.18
+p-value of test                       :    0.34
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 36096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  7,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    3.73
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 38496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  8,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.51
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 40896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  9,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    4.52
+p-value of test                       :    0.10
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 43296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 10,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.66
+p-value of test                       :    0.44
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 45696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 11,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.53
+p-value of test                       :    0.77
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 48096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 12,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    4.10
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 50496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 13,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.13
+p-value of test                       :    0.35
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 52896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 14,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.90
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 55296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 15,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.11
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 57696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 16,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    3.64
+p-value of test                       :    0.16
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 60096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 17,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.86
+p-value of test                       :    0.65
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 62496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 18,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.94
+p-value of test                       :    0.23
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 64896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 19,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.28
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 67296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 20,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.08
+p-value of test                       :    0.35
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 69696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 21,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.67
+p-value of test                       :    0.72
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 72096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 22,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.41
+p-value of test                       :    0.30
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 74496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 23,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.46
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 76896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 24,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.45
+p-value of test                       :    0.80
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 79296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 20,  n = 2097152,  r =  0,   s = 32,   L =   20,
+       Sparse =   TRUE
+
+       Number of bits = n = 2097152
+       Number of cells = 2^L =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+   For Delta > -1, we use the normal approximation
+   Mean and standard deviation: 
+       Delta =     1,    Mu =         524287,    Sigma =       1024
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.080
+p-value of test                       :    0.74
+
+Kolmogorov-Smirnov- statistic = D-    :    0.13
+p-value of test                       :    0.49
+
+Anderson-Darling statistic = A2       :    0.31
+p-value of test                       :    0.93
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  -0.083
+p-value of test                       :    0.53
+
+Standardized empirical correlation    :   -0.43
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.28
+
+Generator state:
+Bytes read: 84538880
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 22,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.20
+p-value of test                       :    0.42
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141967
+  j =  1                              :           283960
+  j =  2                              :           283361
+  j =  3                              :           189612
+  j =  4                              :            94491
+  j =  5                              :            37729
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 92927488
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 21,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.62
+p-value of test                       :    0.05
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142378
+  j =  1                              :           284023
+  j =  2                              :           283199
+  j =  3                              :           188540
+  j =  4                              :            94717
+  j =  5                              :            38259
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 101316096
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 20,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.12
+p-value of test                       :    0.55
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141873
+  j =  1                              :           283816
+  j =  2                              :           284035
+  j =  3                              :           189003
+  j =  4                              :            94705
+  j =  5                              :            37661
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 109704704
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 19,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.35
+p-value of test                       :    0.91
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141517
+  j =  1                              :           284256
+  j =  2                              :           283820
+  j =  3                              :           189472
+  j =  4                              :            94377
+  j =  5                              :            37565
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 118093312
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 18,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -2.05
+p-value of test                       :    0.98
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141314
+  j =  1                              :           284318
+  j =  2                              :           283815
+  j =  3                              :           189481
+  j =  4                              :            94601
+  j =  5                              :            38069
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 126481920
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 17,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.94
+p-value of test                       :    0.03
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142473
+  j =  1                              :           283512
+  j =  2                              :           282879
+  j =  3                              :           189791
+  j =  4                              :            94604
+  j =  5                              :            37998
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 134870528
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 16,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.60
+p-value of test                       :    0.73
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141733
+  j =  1                              :           284307
+  j =  2                              :           283599
+  j =  3                              :           189298
+  j =  4                              :            94314
+  j =  5                              :            37755
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 143259136
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 15,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.10
+p-value of test                       :    0.13
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142229
+  j =  1                              :           283709
+  j =  2                              :           283409
+  j =  3                              :           189581
+  j =  4                              :            94301
+  j =  5                              :            37821
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 151647744
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 14,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.72
+p-value of test                       :    0.24
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142118
+  j =  1                              :           283827
+  j =  2                              :           283519
+  j =  3                              :           189321
+  j =  4                              :            94304
+  j =  5                              :            38034
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 160036352
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 13,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.60
+p-value of test                       :    0.72
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141735
+  j =  1                              :           283631
+  j =  2                              :           283774
+  j =  3                              :           189740
+  j =  4                              :            94973
+  j =  5                              :            37575
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 168424960
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 12,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.11
+p-value of test                       :    0.54
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141877
+  j =  1                              :           284165
+  j =  2                              :           283214
+  j =  3                              :           189336
+  j =  4                              :            95032
+  j =  5                              :            37577
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 176813568
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 11,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.07
+p-value of test                       :    0.86
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141598
+  j =  1                              :           283775
+  j =  2                              :           284127
+  j =  3                              :           189587
+  j =  4                              :            94727
+  j =  5                              :            37404
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 185202176
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 10,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.71
+p-value of test                       :    0.96
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141411
+  j =  1                              :           283878
+  j =  2                              :           284754
+  j =  3                              :           189184
+  j =  4                              :            94151
+  j =  5                              :            37813
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 193590784
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  9,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.67
+p-value of test                       :    0.25
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142103
+  j =  1                              :           283671
+  j =  2                              :           283803
+  j =  3                              :           189240
+  j =  4                              :            94530
+  j =  5                              :            37620
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 201979392
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  8,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.99
+p-value of test                       :    0.84
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141621
+  j =  1                              :           284335
+  j =  2                              :           283646
+  j =  3                              :           188912
+  j =  4                              :            94923
+  j =  5                              :            37961
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 210368000
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  7,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.72
+p-value of test                       :    0.96
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141408
+  j =  1                              :           284096
+  j =  2                              :           283994
+  j =  3                              :           189701
+  j =  4                              :            94297
+  j =  5                              :            37857
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 218756608
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  6,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.45
+p-value of test                       :    0.07
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142328
+  j =  1                              :           283558
+  j =  2                              :           283474
+  j =  3                              :           189357
+  j =  4                              :            94531
+  j =  5                              :            37777
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 227145216
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  5,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.62
+p-value of test                       :    0.05
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142378
+  j =  1                              :           283344
+  j =  2                              :           283087
+  j =  3                              :           189997
+  j =  4                              :            94502
+  j =  5                              :            38063
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 235533824
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  4,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.52
+p-value of test                       :    0.70
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141757
+  j =  1                              :           283780
+  j =  2                              :           284152
+  j =  3                              :           189172
+  j =  4                              :            94448
+  j =  5                              :            37927
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 243922432
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  3,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.18
+p-value of test                       :    0.43
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141961
+  j =  1                              :           283444
+  j =  2                              :           283898
+  j =  3                              :           189856
+  j =  4                              :            94267
+  j =  5                              :            37742
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 252311040
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  2,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.99
+p-value of test                       :    0.98
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141331
+  j =  1                              :           284278
+  j =  2                              :           284059
+  j =  3                              :           189477
+  j =  4                              :            94242
+  j =  5                              :            37971
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 260699648
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  1,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.16
+p-value of test                       :    0.44
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141955
+  j =  1                              :           283215
+  j =  2                              :           284466
+  j =  3                              :           189296
+  j =  4                              :            94504
+  j =  5                              :            37949
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 269088256
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  0,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.50
+p-value of test                       :    0.31
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142053
+  j =  1                              :           284126
+  j =  2                              :           283148
+  j =  3                              :           189347
+  j =  4                              :            94383
+  j =  5                              :            38071
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 277476864
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 27,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.55
+p-value of test                       :    0.29
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142069
+  j =  1                              :           283489
+  j =  2                              :           283494
+  j =  3                              :           189819
+  j =  4                              :            94755
+  j =  5                              :            37795
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 285865472
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 26,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.15
+p-value of test                       :    0.88
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141567
+  j =  1                              :           283628
+  j =  2                              :           284381
+  j =  3                              :           189371
+  j =  4                              :            94850
+  j =  5                              :            37668
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 294254080
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 25,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.69
+p-value of test                       :    0.05
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142405
+  j =  1                              :           283461
+  j =  2                              :           283448
+  j =  3                              :           189251
+  j =  4                              :            94712
+  j =  5                              :            37818
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.12
+
+Generator state:
+Bytes read: 302642688
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 24,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.050
+p-value of test                       :    0.52
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141892
+  j =  1                              :           283187
+  j =  2                              :           284708
+  j =  3                              :           189178
+  j =  4                              :            94423
+  j =  5                              :            37937
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 311031296
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 23,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.84
+p-value of test                       :    0.20
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142154
+  j =  1                              :           283478
+  j =  2                              :           283788
+  j =  3                              :           188764
+  j =  4                              :            95400
+  j =  5                              :            37854
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 319419904
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 22,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.13
+p-value of test                       :    0.45
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141946
+  j =  1                              :           284133
+  j =  2                              :           283221
+  j =  3                              :           189644
+  j =  4                              :            94237
+  j =  5                              :            38018
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 327808512
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 21,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.84
+p-value of test                       :    0.97
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141364
+  j =  1                              :           284403
+  j =  2                              :           284095
+  j =  3                              :           188990
+  j =  4                              :            94410
+  j =  5                              :            38070
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 336197120
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 20,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.41
+p-value of test                       :    0.34
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142027
+  j =  1                              :           283800
+  j =  2                              :           283619
+  j =  3                              :           189160
+  j =  4                              :            94740
+  j =  5                              :            37951
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 344585728
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 19,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.97
+p-value of test                       :    0.17
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142192
+  j =  1                              :           283720
+  j =  2                              :           283772
+  j =  3                              :           188761
+  j =  4                              :            94779
+  j =  5                              :            37846
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 352974336
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 18,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.67
+p-value of test                       :    0.75
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141708
+  j =  1                              :           284466
+  j =  2                              :           283644
+  j =  3                              :           189082
+  j =  4                              :            94020
+  j =  5                              :            38111
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 361362944
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 17,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.30
+p-value of test                       :    0.90
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141522
+  j =  1                              :           284256
+  j =  2                              :           284000
+  j =  3                              :           189160
+  j =  4                              :            94315
+  j =  5                              :            37961
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+Bytes read: 369751552
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 16,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.10
+p-value of test                       :    0.46
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141937
+  j =  1                              :           284096
+  j =  2                              :           283083
+  j =  3                              :           189532
+  j =  4                              :            94747
+  j =  5                              :            37929
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 378140160
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 15,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.65
+p-value of test                       :    0.26
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142099
+  j =  1                              :           283611
+  j =  2                              :           283406
+  j =  3                              :           189651
+  j =  4                              :            94637
+  j =  5                              :            37915
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 386528768
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 14,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.87
+p-value of test                       :    0.19
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142163
+  j =  1                              :           283478
+  j =  2                              :           283150
+  j =  3                              :           190239
+  j =  4                              :            94543
+  j =  5                              :            37712
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 394917376
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 13,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.36
+p-value of test                       :    0.64
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141802
+  j =  1                              :           283944
+  j =  2                              :           284022
+  j =  3                              :           189006
+  j =  4                              :            94679
+  j =  5                              :            37592
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 403305984
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 12,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.21
+p-value of test                       :    0.89
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141550
+  j =  1                              :           284329
+  j =  2                              :           283966
+  j =  3                              :           188998
+  j =  4                              :            94281
+  j =  5                              :            38132
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 411694592
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 11,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.86
+p-value of test                       :    0.19
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142161
+  j =  1                              :           283442
+  j =  2                              :           283923
+  j =  3                              :           189265
+  j =  4                              :            94482
+  j =  5                              :            37930
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 420083200
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 10,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.33
+p-value of test                       :    0.09
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142299
+  j =  1                              :           283890
+  j =  2                              :           283125
+  j =  3                              :           189067
+  j =  4                              :            94592
+  j =  5                              :            38177
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 428471808
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  9,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.39
+p-value of test                       :    0.65
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141793
+  j =  1                              :           283507
+  j =  2                              :           284309
+  j =  3                              :           189382
+  j =  4                              :            94540
+  j =  5                              :            37697
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 436860416
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  8,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.51
+p-value of test                       :    0.07
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142352
+  j =  1                              :           283652
+  j =  2                              :           283394
+  j =  3                              :           189285
+  j =  4                              :            94339
+  j =  5                              :            38128
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 445249024
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  7,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.47
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141769
+  j =  1                              :           283908
+  j =  2                              :           284007
+  j =  3                              :           189130
+  j =  4                              :            94388
+  j =  5                              :            38068
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 453637632
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  6,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.59
+p-value of test                       :    0.28
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142082
+  j =  1                              :           283719
+  j =  2                              :           283799
+  j =  3                              :           188915
+  j =  4                              :            94988
+  j =  5                              :            37567
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 462026240
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  5,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.71
+p-value of test                       :    0.76
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141698
+  j =  1                              :           283705
+  j =  2                              :           284783
+  j =  3                              :           188979
+  j =  4                              :            93953
+  j =  5                              :            37735
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 470414848
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  4,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    2.08
+p-value of test                       :    0.02
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142521
+  j =  1                              :           283416
+  j =  2                              :           283507
+  j =  3                              :           188907
+  j =  4                              :            94813
+  j =  5                              :            38032
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 478803456
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  3,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.30
+p-value of test                       :    0.10
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142290
+  j =  1                              :           283786
+  j =  2                              :           283424
+  j =  3                              :           189003
+  j =  4                              :            94394
+  j =  5                              :            38248
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 487192064
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  2,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.48
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141766
+  j =  1                              :           284103
+  j =  2                              :           283935
+  j =  3                              :           189003
+  j =  4                              :            94543
+  j =  5                              :            37738
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 495580672
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  1,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.00
+p-value of test                       :    0.16
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142203
+  j =  1                              :           284120
+  j =  2                              :           282719
+  j =  3                              :           189471
+  j =  4                              :            94669
+  j =  5                              :            38037
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 503969280
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  0,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.56
+p-value of test                       :    0.29
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142073
+  j =  1                              :           283782
+  j =  2                              :           283660
+  j =  3                              :           188985
+  j =  4                              :            94891
+  j =  5                              :            37843
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 512357888
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 30,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.38
+p-value of test                       :    0.65
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141774
+  j =  1                              :           283758
+  j =  2                              :           284141
+  j =  3                              :           189320
+  j =  4                              :            94544
+  j =  5                              :            37613
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 520746496
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 29,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.91
+p-value of test                       :    0.82
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141593
+  j =  1                              :           283777
+  j =  2                              :           284528
+  j =  3                              :           188861
+  j =  4                              :            94599
+  j =  5                              :            37997
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 529135104
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 28,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.71
+p-value of test                       :    0.24
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142141
+  j =  1                              :           283612
+  j =  2                              :           283539
+  j =  3                              :           189493
+  j =  4                              :            94508
+  j =  5                              :            37828
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 537523712
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 27,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.62
+p-value of test                       :    0.95
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141353
+  j =  1                              :           283789
+  j =  2                              :           284926
+  j =  3                              :           188438
+  j =  4                              :            95218
+  j =  5                              :            37777
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 545912320
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 26,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.58
+p-value of test                       :    0.28
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142098
+  j =  1                              :           282864
+  j =  2                              :           284824
+  j =  3                              :           189397
+  j =  4                              :            94117
+  j =  5                              :            37952
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 554300928
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 25,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.86
+p-value of test                       :    0.81
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141609
+  j =  1                              :           283572
+  j =  2                              :           284115
+  j =  3                              :           190049
+  j =  4                              :            94338
+  j =  5                              :            37696
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 562689536
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 24,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.41
+p-value of test                       :    0.66
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141764
+  j =  1                              :           283934
+  j =  2                              :           283805
+  j =  3                              :           189373
+  j =  4                              :            94497
+  j =  5                              :            37892
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 571078144
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 23,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.052
+p-value of test                       :    0.52
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141884
+  j =  1                              :           283682
+  j =  2                              :           283916
+  j =  3                              :           189372
+  j =  4                              :            94577
+  j =  5                              :            37852
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 579466752
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 22,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.010
+p-value of test                       :    0.50
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141905
+  j =  1                              :           284034
+  j =  2                              :           283513
+  j =  3                              :           189226
+  j =  4                              :            94713
+  j =  5                              :            37802
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.12
+
+Generator state:
+Bytes read: 587855360
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 21,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.75
+p-value of test                       :    0.77
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141647
+  j =  1                              :           284030
+  j =  2                              :           284312
+  j =  3                              :           188577
+  j =  4                              :            95088
+  j =  5                              :            37479
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+Bytes read: 596243968
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 20,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.92
+p-value of test                       :    0.03
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142552
+  j =  1                              :           283812
+  j =  2                              :           282577
+  j =  3                              :           189435
+  j =  4                              :            94556
+  j =  5                              :            38336
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 604632576
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 19,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.25
+p-value of test                       :    0.60
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141818
+  j =  1                              :           283347
+  j =  2                              :           284718
+  j =  3                              :           189205
+  j =  4                              :            94213
+  j =  5                              :            37940
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 613021184
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 18,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.22
+p-value of test                       :    0.59
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141828
+  j =  1                              :           283649
+  j =  2                              :           283832
+  j =  3                              :           189377
+  j =  4                              :            94950
+  j =  5                              :            37896
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 621409792
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 17,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.58
+p-value of test                       :    0.06
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142438
+  j =  1                              :           283500
+  j =  2                              :           283535
+  j =  3                              :           189241
+  j =  4                              :            94392
+  j =  5                              :            37878
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 629798400
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 16,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.45
+p-value of test                       :    0.93
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141411
+  j =  1                              :           283859
+  j =  2                              :           284176
+  j =  3                              :           189575
+  j =  4                              :            94922
+  j =  5                              :            37434
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 638187008
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 15,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.38
+p-value of test                       :    0.35
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142029
+  j =  1                              :           283931
+  j =  2                              :           283323
+  j =  3                              :           189660
+  j =  4                              :            94307
+  j =  5                              :            37804
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 646575616
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 14,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.93
+p-value of test                       :    0.82
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141586
+  j =  1                              :           283619
+  j =  2                              :           284226
+  j =  3                              :           189336
+  j =  4                              :            95073
+  j =  5                              :            37583
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 654964224
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 13,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.22
+p-value of test                       :    0.11
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142316
+  j =  1                              :           283572
+  j =  2                              :           283698
+  j =  3                              :           188913
+  j =  4                              :            94806
+  j =  5                              :            37768
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 663352832
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 12,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.08
+p-value of test                       :    0.86
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141536
+  j =  1                              :           283993
+  j =  2                              :           284412
+  j =  3                              :           189104
+  j =  4                              :            94259
+  j =  5                              :            37875
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 671741440
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 11,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.50
+p-value of test                       :    0.69
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141732
+  j =  1                              :           283807
+  j =  2                              :           283988
+  j =  3                              :           189169
+  j =  4                              :            94750
+  j =  5                              :            38095
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 680130048
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 10,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.47
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141741
+  j =  1                              :           283938
+  j =  2                              :           283831
+  j =  3                              :           189082
+  j =  4                              :            94990
+  j =  5                              :            37742
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 688518656
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  9,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.05
+p-value of test                       :    0.15
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142258
+  j =  1                              :           283062
+  j =  2                              :           283787
+  j =  3                              :           189819
+  j =  4                              :            94592
+  j =  5                              :            37842
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 696907264
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  8,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.57
+p-value of test                       :    0.94
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141371
+  j =  1                              :           284616
+  j =  2                              :           284143
+  j =  3                              :           188598
+  j =  4                              :            94362
+  j =  5                              :            38131
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 705295872
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  7,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.88
+p-value of test                       :    0.19
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142200
+  j =  1                              :           283495
+  j =  2                              :           283746
+  j =  3                              :           189174
+  j =  4                              :            94598
+  j =  5                              :            37993
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 713684480
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  6,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.057
+p-value of test                       :    0.48
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141921
+  j =  1                              :           284231
+  j =  2                              :           282932
+  j =  3                              :           189581
+  j =  4                              :            94661
+  j =  5                              :            37890
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 722073088
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  5,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.06
+p-value of test                       :    0.86
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141541
+  j =  1                              :           283756
+  j =  2                              :           284695
+  j =  3                              :           189051
+  j =  4                              :            94366
+  j =  5                              :            37828
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 730461696
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  4,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.92
+p-value of test                       :    0.82
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141589
+  j =  1                              :           283967
+  j =  2                              :           284239
+  j =  3                              :           189274
+  j =  4                              :            94408
+  j =  5                              :            37609
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 738850304
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  3,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.069
+p-value of test                       :    0.47
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141925
+  j =  1                              :           284200
+  j =  2                              :           283511
+  j =  3                              :           188862
+  j =  4                              :            94684
+  j =  5                              :            37974
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 747238912
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  2,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.48
+p-value of test                       :    0.32
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142063
+  j =  1                              :           283547
+  j =  2                              :           284022
+  j =  3                              :           189043
+  j =  4                              :            94776
+  j =  5                              :            37729
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 755627520
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  1,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.16
+p-value of test                       :    0.56
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141847
+  j =  1                              :           283931
+  j =  2                              :           283622
+  j =  3                              :           189376
+  j =  4                              :            94773
+  j =  5                              :            37628
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 764016128
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  0,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.46
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141747
+  j =  1                              :           283776
+  j =  2                              :           283781
+  j =  3                              :           189669
+  j =  4                              :            94506
+  j =  5                              :            37879
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 772404736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 100,  n = 8000,  r =  0,  t = 2,  p = 2,  m = 1,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.69
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 778804736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 20,  n = 4000,  r =  0,  t = 3,  p = 2,  m = 1,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.66
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 779764736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+smarsa_Savir2 test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  0,    m = 90000,    t = 18
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   42
+Chi-square statistic                  :   46.74
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 786964736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up =  TRUE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 3.74e-3
+p-value of test                       :    0.9961
+
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.22
+
+Anderson-Darling statistic = A2       :    1.30
+p-value of test                       :    0.23
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   80.42
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 787364736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up = FALSE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.23
+p-value of test                       :    0.29
+
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.54
+
+Anderson-Darling statistic = A2       :    0.56
+p-value of test                       :    0.68
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   60.97
+p-value of test                       :    0.44
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 787764736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up =  TRUE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.19
+p-value of test                       :    0.44
+
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.40
+
+Anderson-Darling statistic = A2       :    0.62
+p-value of test                       :    0.62
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   66.60
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 788164736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\DuckDuckGo.Installer.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up = FALSE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.23
+p-value of test                       :    0.32
+
+Kolmogorov-Smirnov- statistic = D-    :    0.13
+p-value of test                       :    0.66
+
+Anderson-Darling statistic = A2       :    0.59
+p-value of test                       :    0.65
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   55.98
+p-value of test                       :    0.62
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 788564736
+
+
+
+
+
+========= Summary results of pseudoDIEHARD =========
+
+ Generator:        C
+ Number of statistics:  126
+ Total CPU time:   00:00:08.15
+
+ All tests were passed
+
+
+
+
+Test execution finished successfully.

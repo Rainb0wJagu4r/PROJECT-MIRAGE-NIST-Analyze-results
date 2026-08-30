@@ -1,0 +1,5616 @@
+========================================================
+         TestU01 Cryptographic Randomness Suite        
+========================================================
+Suite:         diehard
+Target File:   C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+Header Offset: 108 bytes
+========================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting pseudoDIEHARD
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+smarsa_BirthdaySpacings test with r = 0, 1, 2, 3, 4, 5, 6, 7, 8,
+ .....
+
+ r = 0
+ChiSquare statistic                   :    9.92
+p-value of test                       :    0.13
+
+ r = 1
+ChiSquare statistic                   :    4.13
+p-value of test                       :    0.66
+
+ r = 2
+ChiSquare statistic                   :    1.38
+p-value of test                       :    0.97
+
+ r = 3
+ChiSquare statistic                   :    6.68
+p-value of test                       :    0.35
+
+ r = 4
+ChiSquare statistic                   :    1.31
+p-value of test                       :    0.97
+
+ r = 5
+ChiSquare statistic                   :    3.29
+p-value of test                       :    0.77
+
+ r = 6
+ChiSquare statistic                   :    9.45
+p-value of test                       :    0.15
+
+ r = 7
+ChiSquare statistic                   :    9.52
+p-value of test                       :    0.15
+
+ r = 8
+ChiSquare statistic                   :    6.11
+p-value of test                       :    0.41
+
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 40000,  r =  0,    s = 31,    L = 31,    k = 31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    0.60
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.15
+
+Generator state:
+Bytes read: 14176000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 40000,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.54
+p-value of test                       :    0.67
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.14
+
+Generator state:
+Bytes read: 19296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  0,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    4.23
+p-value of test                       :    0.12
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 21696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  1,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.25
+p-value of test                       :    0.33
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 24096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  2,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.72
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 26496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  3,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    6.22
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 28896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  4,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.47
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 31296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  5,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.11
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 33696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  6,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.20
+p-value of test                       :    0.91
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 36096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  7,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.97
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 38496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  8,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.86
+p-value of test                       :    0.65
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 40896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  9,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    5.89
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 43296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 10,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.72
+p-value of test                       :    0.70
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 45696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 11,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.76
+p-value of test                       :    0.68
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 48096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 12,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.65
+p-value of test                       :    0.44
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 50496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 13,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.59
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 52896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 14,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.28
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 55296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 15,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.18
+p-value of test                       :    0.92
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 57696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 16,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.48
+p-value of test                       :    0.48
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 60096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 17,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.55
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 62496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 18,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.77
+p-value of test                       :    0.68
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 64896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 19,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.57
+p-value of test                       :    0.46
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 67296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 20,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.92
+p-value of test                       :    0.38
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 69696000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 21,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    3.21
+p-value of test                       :    0.20
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 72096000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 22,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.16
+p-value of test                       :    0.56
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 74496000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 23,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    1.58
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 76896000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r = 24,    s = 8,    L = 6,    k = 8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.47
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 79296000
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 20,  n = 2097152,  r =  0,   s = 32,   L =   20,
+       Sparse =   TRUE
+
+       Number of bits = n = 2097152
+       Number of cells = 2^L =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+   For Delta > -1, we use the normal approximation
+   Mean and standard deviation: 
+       Delta =     1,    Mu =         524287,    Sigma =       1024
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.56
+
+Kolmogorov-Smirnov- statistic = D-    :   0.100
+p-value of test                       :    0.63
+
+Anderson-Darling statistic = A2       :    0.45
+p-value of test                       :    0.80
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :  -0.017
+p-value of test                       :    0.51
+
+Standardized empirical correlation    :    1.31
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.28
+
+Generator state:
+Bytes read: 84538880
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 22,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.047
+p-value of test                       :    0.48
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141922
+  j =  1                              :           283720
+  j =  2                              :           283989
+  j =  3                              :           189200
+  j =  4                              :            94580
+  j =  5                              :            37673
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 92927488
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 21,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.36
+p-value of test                       :    0.64
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141804
+  j =  1                              :           283935
+  j =  2                              :           283661
+  j =  3                              :           189700
+  j =  4                              :            94474
+  j =  5                              :            37451
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 101316096
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 20,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.77
+p-value of test                       :    0.96
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141394
+  j =  1                              :           284232
+  j =  2                              :           284375
+  j =  3                              :           188898
+  j =  4                              :            94548
+  j =  5                              :            37729
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 109704704
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 19,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.73
+p-value of test                       :    0.96
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141407
+  j =  1                              :           284204
+  j =  2                              :           283982
+  j =  3                              :           189590
+  j =  4                              :            94384
+  j =  5                              :            37669
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 118093312
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 18,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.91
+p-value of test                       :    0.97
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141353
+  j =  1                              :           284249
+  j =  2                              :           283989
+  j =  3                              :           189475
+  j =  4                              :            94565
+  j =  5                              :            37711
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 126481920
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 17,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.11
+p-value of test                       :    0.87
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141587
+  j =  1                              :           284036
+  j =  2                              :           283726
+  j =  3                              :           189840
+  j =  4                              :            94211
+  j =  5                              :            37921
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 134870528
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 16,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.18
+p-value of test                       :    0.57
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141857
+  j =  1                              :           283954
+  j =  2                              :           283782
+  j =  3                              :           189344
+  j =  4                              :            94318
+  j =  5                              :            37971
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 143259136
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 15,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.20
+p-value of test                       :    0.58
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141849
+  j =  1                              :           283599
+  j =  2                              :           284180
+  j =  3                              :           189248
+  j =  4                              :            94653
+  j =  5                              :            37703
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 151647744
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 14,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.48
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141769
+  j =  1                              :           283666
+  j =  2                              :           284412
+  j =  3                              :           189039
+  j =  4                              :            94653
+  j =  5                              :            37622
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 160036352
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 13,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.081
+p-value of test                       :    0.47
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141932
+  j =  1                              :           283670
+  j =  2                              :           284091
+  j =  3                              :           189152
+  j =  4                              :            94502
+  j =  5                              :            37894
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 168424960
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 12,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.81
+p-value of test                       :    0.79
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141672
+  j =  1                              :           283854
+  j =  2                              :           284658
+  j =  3                              :           188490
+  j =  4                              :            94710
+  j =  5                              :            37682
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 176813568
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 11,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.12
+p-value of test                       :    0.87
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141584
+  j =  1                              :           283953
+  j =  2                              :           284070
+  j =  3                              :           189712
+  j =  4                              :            93829
+  j =  5                              :            38028
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 185202176
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 10,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.29
+p-value of test                       :    0.39
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141993
+  j =  1                              :           283429
+  j =  2                              :           284386
+  j =  3                              :           189133
+  j =  4                              :            94273
+  j =  5                              :            38002
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 193590784
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  9,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.72
+p-value of test                       :    0.76
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141700
+  j =  1                              :           284116
+  j =  2                              :           283465
+  j =  3                              :           189592
+  j =  4                              :            94686
+  j =  5                              :            37676
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 201979392
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  8,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.31
+p-value of test                       :    0.62
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141819
+  j =  1                              :           284416
+  j =  2                              :           283388
+  j =  3                              :           189069
+  j =  4                              :            94438
+  j =  5                              :            37908
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 210368000
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  7,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.70
+p-value of test                       :    0.96
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141416
+  j =  1                              :           284194
+  j =  2                              :           283957
+  j =  3                              :           189272
+  j =  4                              :            94813
+  j =  5                              :            37687
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 218756608
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  6,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.48
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141769
+  j =  1                              :           284102
+  j =  2                              :           283920
+  j =  3                              :           189062
+  j =  4                              :            94326
+  j =  5                              :            37943
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 227145216
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  5,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.53
+p-value of test                       :    0.70
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141754
+  j =  1                              :           284469
+  j =  2                              :           283911
+  j =  3                              :           188223
+  j =  4                              :            94820
+  j =  5                              :            37925
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 235533824
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  4,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.26
+p-value of test                       :    0.60
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141832
+  j =  1                              :           284064
+  j =  2                              :           283611
+  j =  3                              :           189597
+  j =  4                              :            94063
+  j =  5                              :            38049
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 243922432
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  3,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.34
+p-value of test                       :    0.63
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141811
+  j =  1                              :           283633
+  j =  2                              :           284194
+  j =  3                              :           188991
+  j =  4                              :            94768
+  j =  5                              :            38120
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 252311040
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  2,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.088
+p-value of test                       :    0.46
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141934
+  j =  1                              :           283563
+  j =  2                              :           284420
+  j =  3                              :           188747
+  j =  4                              :            94663
+  j =  5                              :            37855
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 260699648
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  1,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.87
+p-value of test                       :    0.19
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142162
+  j =  1                              :           283213
+  j =  2                              :           284211
+  j =  3                              :           189265
+  j =  4                              :            94377
+  j =  5                              :            38050
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 269088256
+
+
+
+
+***********************************************************
+Test smarsa_Opso calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  0,   d = 1024,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190484.47
+       Expected standard deviation =     290.33
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.05
+p-value of test                       :    0.85
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141604
+  j =  1                              :           284533
+  j =  2                              :           283602
+  j =  3                              :           189303
+  j =  4                              :            94055
+  j =  5                              :            37947
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 277476864
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 27,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.17
+p-value of test                       :    0.88
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141563
+  j =  1                              :           284053
+  j =  2                              :           283698
+  j =  3                              :           189908
+  j =  4                              :            94433
+  j =  5                              :            37542
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 285865472
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 26,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.75
+p-value of test                       :    0.77
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141685
+  j =  1                              :           283688
+  j =  2                              :           284306
+  j =  3                              :           189335
+  j =  4                              :            94428
+  j =  5                              :            37796
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 294254080
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 25,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    2.58
+p-value of test                       :  5.0e-3
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142667
+  j =  1                              :           283079
+  j =  2                              :           283709
+  j =  3                              :           189015
+  j =  4                              :            94765
+  j =  5                              :            37789
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 302642688
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 24,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.38
+p-value of test                       :    0.65
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141795
+  j =  1                              :           283787
+  j =  2                              :           284131
+  j =  3                              :           189209
+  j =  4                              :            94386
+  j =  5                              :            37806
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 311031296
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 23,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.04
+p-value of test                       :    0.85
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141599
+  j =  1                              :           284360
+  j =  2                              :           283651
+  j =  3                              :           189175
+  j =  4                              :            94600
+  j =  5                              :            37763
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 319419904
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 22,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.46
+p-value of test                       :    0.93
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141476
+  j =  1                              :           284181
+  j =  2                              :           284499
+  j =  3                              :           188583
+  j =  4                              :            94567
+  j =  5                              :            37931
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 327808512
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 21,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.22
+p-value of test                       :    0.11
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142266
+  j =  1                              :           283259
+  j =  2                              :           284234
+  j =  3                              :           188670
+  j =  4                              :            94864
+  j =  5                              :            37804
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 336197120
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 20,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.27
+p-value of test                       :    0.40
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141985
+  j =  1                              :           283806
+  j =  2                              :           283731
+  j =  3                              :           189385
+  j =  4                              :            94431
+  j =  5                              :            37709
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 344585728
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 19,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.97
+p-value of test                       :    0.83
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141620
+  j =  1                              :           284598
+  j =  2                              :           283497
+  j =  3                              :           188930
+  j =  4                              :            94661
+  j =  5                              :            37678
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 352974336
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 18,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -2.90
+p-value of test                       :    0.9981
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141052
+  j =  1                              :           284501
+  j =  2                              :           284310
+  j =  3                              :           189031
+  j =  4                              :            94632
+  j =  5                              :            37873
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 361362944
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 17,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.38
+p-value of test                       :    0.35
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142018
+  j =  1                              :           283820
+  j =  2                              :           283746
+  j =  3                              :           188867
+  j =  4                              :            94823
+  j =  5                              :            38049
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 369751552
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 16,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.46
+p-value of test                       :    0.93
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141477
+  j =  1                              :           283516
+  j =  2                              :           284889
+  j =  3                              :           189334
+  j =  4                              :            94447
+  j =  5                              :            37588
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 378140160
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 15,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.79
+p-value of test                       :    0.22
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142139
+  j =  1                              :           283735
+  j =  2                              :           283347
+  j =  3                              :           189643
+  j =  4                              :            94453
+  j =  5                              :            37851
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 386528768
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 14,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.66
+p-value of test                       :    0.75
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141712
+  j =  1                              :           284085
+  j =  2                              :           284181
+  j =  3                              :           188952
+  j =  4                              :            94276
+  j =  5                              :            37759
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 394917376
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 13,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.25
+p-value of test                       :    0.11
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142276
+  j =  1                              :           284084
+  j =  2                              :           282969
+  j =  3                              :           189254
+  j =  4                              :            94570
+  j =  5                              :            37826
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 403305984
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 12,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.48
+p-value of test                       :    0.93
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141470
+  j =  1                              :           284420
+  j =  2                              :           283872
+  j =  3                              :           188803
+  j =  4                              :            94967
+  j =  5                              :            37770
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 411694592
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 11,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.25
+p-value of test                       :    0.60
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141833
+  j =  1                              :           283982
+  j =  2                              :           283818
+  j =  3                              :           189049
+  j =  4                              :            94744
+  j =  5                              :            37745
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 420083200
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 10,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.026
+p-value of test                       :    0.51
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141899
+  j =  1                              :           283547
+  j =  2                              :           284281
+  j =  3                              :           188874
+  j =  4                              :            94652
+  j =  5                              :            38147
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 428471808
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  9,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.23
+p-value of test                       :    0.41
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141975
+  j =  1                              :           283730
+  j =  2                              :           283484
+  j =  3                              :           189740
+  j =  4                              :            94437
+  j =  5                              :            37923
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 436860416
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  8,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.17
+p-value of test                       :    0.12
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142253
+  j =  1                              :           283642
+  j =  2                              :           283686
+  j =  3                              :           188975
+  j =  4                              :            94525
+  j =  5                              :            38053
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 445249024
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  7,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.16
+p-value of test                       :    0.56
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141861
+  j =  1                              :           283971
+  j =  2                              :           283819
+  j =  3                              :           189360
+  j =  4                              :            94135
+  j =  5                              :            37839
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 453637632
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  6,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.87
+p-value of test                       :    0.19
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142162
+  j =  1                              :           283451
+  j =  2                              :           283696
+  j =  3                              :           189391
+  j =  4                              :            94773
+  j =  5                              :            37824
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 462026240
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  5,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.084
+p-value of test                       :    0.53
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141882
+  j =  1                              :           284135
+  j =  2                              :           283625
+  j =  3                              :           189271
+  j =  4                              :            94074
+  j =  5                              :            38072
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 470414848
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  4,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.11
+p-value of test                       :    0.87
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141579
+  j =  1                              :           284396
+  j =  2                              :           283853
+  j =  3                              :           188732
+  j =  4                              :            94920
+  j =  5                              :            37579
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 478803456
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  3,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.074
+p-value of test                       :    0.53
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141885
+  j =  1                              :           283837
+  j =  2                              :           284095
+  j =  3                              :           189166
+  j =  4                              :            94026
+  j =  5                              :            38115
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 487192064
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  2,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.56
+p-value of test                       :    0.94
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141446
+  j =  1                              :           284153
+  j =  2                              :           284385
+  j =  3                              :           188828
+  j =  4                              :            94713
+  j =  5                              :            37673
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 495580672
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  1,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.47
+p-value of test                       :    0.32
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142046
+  j =  1                              :           283938
+  j =  2                              :           283496
+  j =  3                              :           189354
+  j =  4                              :            94129
+  j =  5                              :            38195
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 503969280
+
+
+
+
+***********************************************************
+Test OQSO calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  0,   d =   32,   t =  4,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190482.74
+       Expected standard deviation =     295.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.17
+p-value of test                       :    0.12
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142251
+  j =  1                              :           283795
+  j =  2                              :           283889
+  j =  3                              :           188214
+  j =  4                              :            94882
+  j =  5                              :            38088
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 512357888
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 30,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.55
+p-value of test                       :    0.71
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141715
+  j =  1                              :           284259
+  j =  2                              :           283647
+  j =  3                              :           189145
+  j =  4                              :            94546
+  j =  5                              :            37836
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 520746496
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 29,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.36
+p-value of test                       :    0.09
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142364
+  j =  1                              :           283000
+  j =  2                              :           283912
+  j =  3                              :           189508
+  j =  4                              :            94469
+  j =  5                              :            38083
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 529135104
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 28,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.92
+p-value of test                       :    0.03
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142552
+  j =  1                              :           283056
+  j =  2                              :           283664
+  j =  3                              :           189248
+  j =  4                              :            94669
+  j =  5                              :            38073
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 537523712
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 27,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.90
+p-value of test                       :    0.18
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142206
+  j =  1                              :           283603
+  j =  2                              :           283422
+  j =  3                              :           189423
+  j =  4                              :            94790
+  j =  5                              :            37783
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 545912320
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 26,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.10
+p-value of test                       :    0.87
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141527
+  j =  1                              :           283838
+  j =  2                              :           284366
+  j =  3                              :           189334
+  j =  4                              :            94271
+  j =  5                              :            38126
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 554300928
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 25,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.78
+p-value of test                       :    0.78
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141638
+  j =  1                              :           283968
+  j =  2                              :           284066
+  j =  3                              :           189097
+  j =  4                              :            94627
+  j =  5                              :            37981
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 562689536
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 24,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.74
+p-value of test                       :    0.77
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141651
+  j =  1                              :           283492
+  j =  2                              :           284486
+  j =  3                              :           189134
+  j =  4                              :            95011
+  j =  5                              :            37713
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 571078144
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 23,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.12
+p-value of test                       :    0.45
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141942
+  j =  1                              :           284455
+  j =  2                              :           283320
+  j =  3                              :           188644
+  j =  4                              :            94747
+  j =  5                              :            38031
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 579466752
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 22,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.37
+p-value of test                       :    0.36
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142027
+  j =  1                              :           283928
+  j =  2                              :           283452
+  j =  3                              :           189254
+  j =  4                              :            94577
+  j =  5                              :            38045
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 587855360
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 21,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.29
+p-value of test                       :    0.38
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142001
+  j =  1                              :           283760
+  j =  2                              :           284196
+  j =  3                              :           188601
+  j =  4                              :            94647
+  j =  5                              :            37857
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 596243968
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 20,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.27
+p-value of test                       :    0.61
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141811
+  j =  1                              :           283555
+  j =  2                              :           284697
+  j =  3                              :           188695
+  j =  4                              :            94721
+  j =  5                              :            37711
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 604632576
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 19,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.47
+p-value of test                       :    0.68
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141743
+  j =  1                              :           284066
+  j =  2                              :           284115
+  j =  3                              :           188677
+  j =  4                              :            94504
+  j =  5                              :            38005
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 613021184
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 18,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.64
+p-value of test                       :    0.05
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142459
+  j =  1                              :           283581
+  j =  2                              :           283512
+  j =  3                              :           188945
+  j =  4                              :            94471
+  j =  5                              :            38125
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 621409792
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 17,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.16
+p-value of test                       :    0.56
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141848
+  j =  1                              :           284233
+  j =  2                              :           283623
+  j =  3                              :           188996
+  j =  4                              :            94641
+  j =  5                              :            37730
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 629798400
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 16,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   0.025
+p-value of test                       :    0.49
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141910
+  j =  1                              :           284108
+  j =  2                              :           283074
+  j =  3                              :           189733
+  j =  4                              :            94760
+  j =  5                              :            37559
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 638187008
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 15,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.090
+p-value of test                       :    0.54
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141871
+  j =  1                              :           284264
+  j =  2                              :           283419
+  j =  3                              :           188942
+  j =  4                              :            94789
+  j =  5                              :            37856
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 646575616
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 14,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :  -0.067
+p-value of test                       :    0.53
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141879
+  j =  1                              :           284025
+  j =  2                              :           283724
+  j =  3                              :           189020
+  j =  4                              :            94740
+  j =  5                              :            37715
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 654964224
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 13,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.44
+p-value of test                       :    0.33
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142052
+  j =  1                              :           283878
+  j =  2                              :           283273
+  j =  3                              :           189092
+  j =  4                              :            95127
+  j =  5                              :            38055
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 663352832
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 12,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.05
+p-value of test                       :    0.85
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141545
+  j =  1                              :           284929
+  j =  2                              :           282780
+  j =  3                              :           189394
+  j =  4                              :            94640
+  j =  5                              :            37898
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 671741440
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 11,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.37
+p-value of test                       :    0.09
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142366
+  j =  1                              :           283418
+  j =  2                              :           283486
+  j =  3                              :           189450
+  j =  4                              :            94542
+  j =  5                              :            37707
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 680130048
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r = 10,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.42
+p-value of test                       :    0.08
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142382
+  j =  1                              :           284013
+  j =  2                              :           283277
+  j =  3                              :           188684
+  j =  4                              :            94635
+  j =  5                              :            37923
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 688518656
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  9,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.22
+p-value of test                       :    0.11
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142316
+  j =  1                              :           283819
+  j =  2                              :           283305
+  j =  3                              :           188986
+  j =  4                              :            94752
+  j =  5                              :            37856
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 696907264
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  8,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -1.89
+p-value of test                       :    0.97
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141262
+  j =  1                              :           284423
+  j =  2                              :           284071
+  j =  3                              :           189208
+  j =  4                              :            94429
+  j =  5                              :            37968
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 705295872
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  7,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.61
+p-value of test                       :    0.05
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142448
+  j =  1                              :           283295
+  j =  2                              :           283386
+  j =  3                              :           189642
+  j =  4                              :            94650
+  j =  5                              :            37678
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.10
+
+Generator state:
+Bytes read: 713684480
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  6,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    3.18
+p-value of test                       :  7.5e-4    *****
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142978
+  j =  1                              :           282913
+  j =  2                              :           283924
+  j =  3                              :           188204
+  j =  4                              :            94686
+  j =  5                              :            38496
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 722073088
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  5,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.40
+p-value of test                       :    0.34
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142038
+  j =  1                              :           284337
+  j =  2                              :           282864
+  j =  3                              :           189229
+  j =  4                              :            94724
+  j =  5                              :            37917
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 730461696
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  4,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.18
+p-value of test                       :    0.57
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141840
+  j =  1                              :           283411
+  j =  2                              :           284514
+  j =  3                              :           189105
+  j =  4                              :            94706
+  j =  5                              :            37609
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 738850304
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  3,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    0.82
+p-value of test                       :    0.20
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142181
+  j =  1                              :           283598
+  j =  2                              :           284279
+  j =  3                              :           188440
+  j =  4                              :            94733
+  j =  5                              :            37722
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 747238912
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  2,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -0.40
+p-value of test                       :    0.66
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141765
+  j =  1                              :           284194
+  j =  2                              :           283760
+  j =  3                              :           189114
+  j =  4                              :            94542
+  j =  5                              :            37682
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 755627520
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  1,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :   -2.23
+p-value of test                       :    0.99
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           141147
+  j =  1                              :           284210
+  j =  2                              :           283990
+  j =  3                              :           190155
+  j =  4                              :            94282
+  j =  5                              :            37561
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 764016128
+
+
+
+
+***********************************************************
+Test DNA calling smarsa_CollisionOver
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 2097152,  r =  0,   d =    4,   t = 10,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =            1048576
+       Expected number per cell =           2
+       EColl = n^2 / (2k) =      2097152
+       Hashing =  FALSE
+
+       Collision test
+
+       CollisionOver:   density = n / k =       2.00
+       Expected number of collisions = 1190477.55
+       Expected standard deviation =     339.00
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+NORMAL approximation:
+Value of the standardized statistic   :    1.35
+p-value of test                       :    0.09
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :           142360
+  j =  1                              :           282809
+  j =  2                              :           284131
+  j =  3                              :           189425
+  j =  4                              :            94763
+  j =  5                              :            37760
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 772404736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 100,  n = 8000,  r =  0,  t = 2,  p = 2,  m = 1,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    1.22
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.09
+
+Generator state:
+Bytes read: 778804736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 20,  n = 4000,  r =  0,  t = 3,  p = 2,  m = 1,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.19
+p-value of test                       :    0.9919
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.01
+
+Generator state:
+Bytes read: 779764736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+smarsa_Savir2 test:
+-----------------------------------------------
+   N =  1,  n = 100000,  r =  0,    m = 90000,    t = 18
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   42
+Chi-square statistic                  :   60.56
+p-value of test                       :    0.03
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 786964736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up =  TRUE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.38
+
+Kolmogorov-Smirnov- statistic = D-    :    0.12
+p-value of test                       :    0.71
+
+Anderson-Darling statistic = A2       :    0.40
+p-value of test                       :    0.84
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   55.05
+p-value of test                       :    0.66
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 787364736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up = FALSE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.26
+p-value of test                       :    0.21
+
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.55
+
+Anderson-Darling statistic = A2       :    0.78
+p-value of test                       :    0.49
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   51.88
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 787764736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up =  TRUE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.19
+p-value of test                       :    0.42
+
+Kolmogorov-Smirnov- statistic = D-    :   0.067
+p-value of test                       :    0.88
+
+Anderson-Darling statistic = A2       :    0.46
+p-value of test                       :    0.79
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   51.96
+p-value of test                       :    0.76
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 788164736
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\encryption_file_test.wraith
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 10000,  r =  0,   Up = FALSE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.13
+p-value of test                       :    0.65
+
+Kolmogorov-Smirnov- statistic = D-    :    0.15
+p-value of test                       :    0.60
+
+Anderson-Darling statistic = A2       :    0.30
+p-value of test                       :    0.94
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   56.50
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.00
+
+Generator state:
+Bytes read: 788564736
+
+
+
+
+
+========= Summary results of pseudoDIEHARD =========
+
+ Generator:        C
+ Number of statistics:  126
+ Total CPU time:   00:00:07.37
+ The following tests gave p-values outside [0.001, 0.9990]:
+ (eps  means a value < 1.0e-300):
+ (eps1 means a value < 1.0e-15):
+
+       Test                          p-value
+ ----------------------------------------------
+  7  DNA                             7.5e-4
+ ----------------------------------------------
+ All other tests were passed
+
+
+
+
+Test execution finished successfully.

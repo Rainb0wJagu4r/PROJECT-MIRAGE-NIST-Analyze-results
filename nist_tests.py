@@ -370,19 +370,12 @@ def non_overlapping_template_matching_test(bits: np.ndarray, template_str: str =
     if num_blocks == 0:
         return 0.0, False, f"Sequence length ({n}) too small for block size ({block_size})"
         
-    # Count occurrences in each block
+    # Convert bits to ASCII string representation for C-speed counting
+    bit_chars = (bits[:num_blocks * block_size] + 48).tobytes().decode('ascii')
     counts = np.zeros(num_blocks, dtype=int)
     for i in range(num_blocks):
-        block = bits[i * block_size : (i + 1) * block_size]
-        count = 0
-        pos = 0
-        while pos <= block_size - m:
-            if np.array_equal(block[pos:pos+m], template):
-                count += 1
-                pos += m  # Non-overlapping: jump template size
-            else:
-                pos += 1
-        counts[i] = count
+        sub = bit_chars[i * block_size : (i + 1) * block_size]
+        counts[i] = sub.count(template_str)
         
     # Expected mean and variance (NIST SP 800-22 formulas)
     mu = (block_size - m + 1) / (2.0 ** m)

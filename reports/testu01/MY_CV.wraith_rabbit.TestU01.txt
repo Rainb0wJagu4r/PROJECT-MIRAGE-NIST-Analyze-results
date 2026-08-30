@@ -1,0 +1,847 @@
+========================================================
+         TestU01 Cryptographic Randomness Suite        
+========================================================
+Suite:         rabbit
+Target File:   C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+Header Offset: 108 bytes
+========================================================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 52532952
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  6,  n = 8755488,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 8755488
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  31394.927
+       EColl = n^2 / (2k) =  139.4411267
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   31394.93
+       Expected number of collisions = Mu =     139.44
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      836.63
+Observed number of collisions         :      832
+p-value of test                       :    0.55
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    1649214909568
+  j =  1                              :         52531264
+  j =  2                              :              832
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.89
+
+Generator state:
+Bytes read: 6566616
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 820827,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   18.00
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.23
+
+Generator state:
+Bytes read: 13133232
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  1,  n = 410413,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :    8.00
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+Bytes read: 19699840
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 1641654,   K = 1641654,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =     49249620 bits
+   Q = 1641654 initialization blocks
+   K = 1641654 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    2.03
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.03
+
+Generator state:
+Bytes read: 26266456
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 24480,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi2 statistic for size of jumps      :    3.39
+p-value of test                       :    0.91
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    0.21
+p-value of test                       :    0.42
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.29
+
+Generator state:
+Bytes read: 26269516
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 33554432,  r =  0,   s =   32,   k =   25
+
+
+-----------------------------------------------
+Normal statistic                      :    0.72
+p-value of test                       :    0.24
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.10
+
+Generator state:
+Bytes read: 30463820
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :    0.17
+p-value of test                       :    0.43
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 30594892
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 12726,  n = 4096,  r =  0,   s =   32,   k =   12
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.035
+p-value of test                       :    0.08
+
+Kolmogorov-Smirnov- statistic = D-    : 4.82e-3
+p-value of test                       :    0.95
+
+Anderson-Darling statistic = A2       :    1.16
+p-value of test                       :    0.28
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+Bytes read: 37161508
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 60,  r =  0,   s = 32,   L = 875520
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    2.79
+p-value of test                       :    0.43
+
+-----------------------------------------------
+Global longest run of 1               :   25.00
+p-value of test                       :    0.54
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.21
+
+Generator state:
+Bytes read: 43727908
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 1641654,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  121
+Chi-square statistic                  :  136.57
+p-value of test                       :    0.16
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 50294524
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 1641654,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   24
+Chi-square statistic                  :   21.62
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 56861140
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 1641654,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.17
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 63427756
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 820827,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.76
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 69994372
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 410413,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.04
+p-value of test                       :    0.85
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 76560980
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 1641654,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  201
+Chi-square statistic                  :  196.94
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 83127596
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 820827,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  357
+Chi-square statistic                  :  345.69
+p-value of test                       :    0.66
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+Bytes read: 89694212
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 410413,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  593
+Chi-square statistic                  :  538.52
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.06
+
+Generator state:
+Bytes read: 96260820
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 52532865,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    1.62
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 102827432
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 52532866,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.75
+p-value of test                       :    0.77
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.07
+
+Generator state:
+Bytes read: 109394044
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 10506585,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  10506592
+
+Number of degrees of freedom          :   40
+Chi2 statistic for number of runs     :   27.55
+p-value of test                       :    0.93
+
+
+-----------------------------------------------
+Total number of bits:  42015968
+
+Normal statistic for number of bits   :   -1.13
+p-value of test                       :    0.87
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.20
+
+Generator state:
+Bytes read: 114646040
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 51301,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.87
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.20
+
+Generator state:
+Bytes read: 121212568
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 513,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    0.56
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.23
+
+Generator state:
+Bytes read: 127778968
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 50,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    1
+Chi-square statistic                  :   0.019
+p-value of test                       :    0.89
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.28
+
+Generator state:
+Bytes read: 134332568
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 410413,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   55.75
+p-value of test                       :    0.15
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   55.10
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   59.38
+p-value of test                       :    0.64
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   32.43
+p-value of test                       :    0.72
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   23
+ChiSquare statistic                   :   10.01
+p-value of test                       :    0.9912
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.17
+
+Generator state:
+Bytes read: 140899176
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 51301,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  106
+ChiSquare statistic                   :  103.40
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  105
+ChiSquare statistic                   :  108.99
+p-value of test                       :    0.38
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  505.41
+p-value of test                       :    0.57
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  101
+ChiSquare statistic                   :  122.80
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   55
+ChiSquare statistic                   :   52.93
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.15
+
+Generator state:
+Bytes read: 147465704
+
+
+
+
+***********************************************************
+HOST = 
+
+C:\Users\NHK-DB\Downloads\.wraith file extension information\MY%20CV.wraith
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 5244,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  204
+ChiSquare statistic                   :  229.74
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  204
+ChiSquare statistic                   :  178.20
+p-value of test                       :    0.90
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  481
+ChiSquare statistic                   :  476.16
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  203
+ChiSquare statistic                   :  229.61
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  118
+ChiSquare statistic                   :  130.74
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.12
+
+Generator state:
+Bytes read: 154031192
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ Generator:        C
+ Number of bits:   52532928
+ Number of statistics:  40
+ Total CPU time:   00:00:10.37
+
+ All tests were passed
+
+
+
+
+Test execution finished successfully.
