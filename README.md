@@ -100,6 +100,37 @@ $$\text{Plaintext} \longrightarrow \underbrace{\text{Camellia-256-CTR}}_{\text{L
 
 ---
 
+## 🔒 Audit Results: Paranoia C4-512 (SSEFE Steganography & Cascade Envelope)
+
+Audited against the **Paranoia Cascade & Steganography Engine** implementing the 4-layer cascade cipher:
+`Threefish-512 (CTR) -> Serpent-256 (CTR) -> AES-256 (CTR) -> SHACAL-2 (CTR)` with **HMAC-SHA256** Encrypt-then-MAC authentication.
+
+Reports are located in [`reports/paranoia_c4/`](reports/paranoia_c4/):
+*   [`paranoia_c4_im_a_motherfuckin3.NIST`](reports/paranoia_c4/paranoia_c4_im_a_motherfuckin3.NIST) (`I´M A MOTHERFUCKIN´3.png.enc`, 499,600 bits)
+*   [`paranoia_c4_im_a_motherfuckin4.NIST`](reports/paranoia_c4/paranoia_c4_im_a_motherfuckin4.NIST) (`I´M A MOTHERFUCKIN´4.png.enc`, 739,344 bits)
+*   [`paranoia_c4_im_a_motherfuckin5.NIST`](reports/paranoia_c4/paranoia_c4_im_a_motherfuckin5.NIST) (`I´M A MOTHERFUCKIN´5.png.enc`, 739,360 bits)
+
+### Test Matrix
+
+| Test Name | `I´M A MOTHERFUCKIN´3.png.enc` | `I´M A MOTHERFUCKIN´4.png.enc` | `I´M A MOTHERFUCKIN´5.png.enc` | Status |
+| :--- | :---: | :---: | :---: | :---: |
+| **Sequence Length** | 499,600 bits | 739,344 bits | 739,360 bits | — |
+| **Bit Balance** | 50.09% ones | 50.00% ones | 49.98% ones | **Optimal** |
+| **Serial Correlation** | -0.000842 | -0.001162 | -0.001089 | **Zero Corr** |
+| **Frequency (Monobit)** | 0.19305 | 0.93697 | 0.78194 | **PASS** |
+| **Block Frequency (M=128)** | 0.95616 | 0.86666 | 0.92198 | **PASS** |
+| **Runs Test** | 0.55077 | 0.31722 | 0.34853 | **PASS** |
+| **Longest Run of Ones** | 0.02908 | 0.37973 | 0.51657 | **PASS** |
+| **DFT / Spectral** | 0.73570 | 0.81106 | 0.43594 | **PASS** |
+| **CUSUM Forward** | 0.20747 | 0.81463 | 0.76254 | **PASS** |
+| **CUSUM Backward** | 0.19803 | 0.74189 | 0.51233 | **PASS** |
+| **Approx. Entropy (m=3)** | 0.14380 | 0.09703 | 0.46108 | **PASS** |
+| **Serial Test (m=3)** | 0.20172, 0.14096 | 0.08588, 0.02796 | 0.63267, 0.44572 | **PASS** |
+| **Template Matching** | 0.29999 | 0.97276 | 0.97702 | **PASS** |
+| **OVERALL CONCLUSION** | **NIST STS PASS** | **NIST STS PASS** | **NIST STS PASS** | **PASS** |
+
+---
+
 ## 📂 Repository Structure
 
 ```
@@ -107,6 +138,7 @@ PROJECT-MIRAGE-NIST-Analyze-results/
 ├── audit_all_suites.py          # Unified CLI runner for all 4 test suites
 ├── audit_wraith.py              # CLI auditor for legacy Project Mirage NIST SP 800-22
 ├── audit_miragex.py             # CLI auditor for MirageX (ML-KEM-1024 PQC) WRAITH v4
+├── audit_paranoia.py            # CLI auditor for Paranoia C4-512 (SSEFE) envelopes
 ├── build_tools.py               # Automated compiler for PractRand, TestU01 & NIST STS
 ├── testu01_runner.c             # C source harness for TestU01 batteries
 ├── file_parser.py               # Multi-format parser & .wraith envelope inspector
@@ -120,6 +152,7 @@ PROJECT-MIRAGE-NIST-Analyze-results/
 ├── reports/                     # Official cryptographic audit logs
 │   ├── AUDIT_MASTER_SUMMARY.md  # Consolidated master summary table
 │   ├── miragex_v4_pqc/          # MirageX Ultra (ML-KEM-1024 PQC) audit reports (.NIST)
+│   ├── paranoia_c4/             # Paranoia C4-512 (SSEFE) audit reports (.NIST)
 │   ├── nist/                    # Legacy NIST SP 800-22 audit reports (.NIST)
 │   ├── practrand/               # PractRand 0.94 execution logs (.txt)
 │   ├── testu01/                 # TestU01 SmallCrush & Rabbit logs (.txt)
@@ -153,6 +186,11 @@ pip install -r requirements.txt
 ### Run MirageX (WRAITH v4 / ML-KEM-1024) NIST Audit Matrix
 ```bash
 python audit_miragex.py
+```
+
+### Run Paranoia C4-512 (SSEFE) NIST Audit
+```bash
+python audit_paranoia.py
 ```
 
 ### Run Full Multi-Suite Audit (NIST + PractRand + TestU01 + Diehard)
