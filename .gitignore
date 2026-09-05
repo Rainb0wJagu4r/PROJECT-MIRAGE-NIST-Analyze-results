@@ -3,6 +3,21 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# C/C++ build artifacts & binaries
+*.o
+*.obj
+*.exe
+*.out
+*.dylib
+*.so
+tools/RNG_test
+tools/RNG_test.exe
+tools/testu01_runner
+tools/testu01_runner.exe
+tools/assess
+tools/assess.exe
+build/
+
 # Environments
 .env
 .venv
@@ -21,7 +36,5 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Build artifacts
-build_tmp/
-*.o
-*.a
+# Test Samples
+test_samples/
